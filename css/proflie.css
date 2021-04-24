@@ -130,6 +130,10 @@ color: #f39;
   font-weight: bold;
   list-style: none;
 }
+.name_34{
+  margin-top: 80px;
+  color: #30f;
+}
 .side01{
   list-style: none;
 }
@@ -153,7 +157,7 @@ color: #f39;
     margin: auto;
   }
   .footer{
-    margin-top: 950px;
+    margin-top: 1500px;
   }
  
 }
