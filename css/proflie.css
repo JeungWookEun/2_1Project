@@ -134,12 +134,28 @@ color: #f39;
   list-style: none;
 }
 @media screen and (max-width: 767px) {
-  .header, .column.middle, .footer {
-      width: 70%;
+  body{
+    width: 760px;
+    height: 2300px;
   }
-  .column.side{
-      width: auto;
+  .header, .footer{
+    width: 100%;
+
   }
+  .topnav a{
+    width: 25%;
+  }
+  .topnav a, .column.side .name_0 ,.column.side ,.column.middle .name_2, .name_3, .li_list2, .column.side .side01,    .footer, .pic, .name000, .li_list1{
+    text-align: center;
+  }
+  .column.middle, .column.side{
+    width: 100%;
+    margin: auto;
+  }
+  .footer{
+    margin-top: 950px;
+  }
+ 
 }
 /* footer */
 .footer {
