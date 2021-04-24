@@ -5,10 +5,24 @@ body {
 margin: auto;
 width: 1300px;
 }
+.logo{
+  position: relative;
+}
+.logo::before{
+  content:"";
+  background-image: url('/img/america.PNG');
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;  
+}
 .header {
-  background-color: #f1f1f1;
   padding: 20px;
-  text-align: center;
+  text-align: center;  
 }
 .topnav {
   overflow: hidden;
@@ -46,10 +60,11 @@ width: 1300px;
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .column.side, .column.middle {
       width: 100%;
   }
+
 }
 /* footer */
 .footer {
