@@ -87,7 +87,7 @@ color: #f39;
   font-size: 20px;
   color: #30f;
   margin-top: 50px;
-  border-bottom: orange 1px solid;
+  border-bottom: orange 2px solid;
 }
 .name_01{
   color: #60f;
@@ -117,6 +117,7 @@ color: #f39;
 .li_list2{
   text-align: center;
   color: #30f;
+  border-bottom: orange 2px solid;
 }
 .li_list3{
   padding-left: 40px;
@@ -131,8 +132,12 @@ color: #f39;
   list-style: none;
 }
 .name_34{
-  margin-top: 80px;
+  margin-top: 47px;
   color: #30f;
+  border-bottom: orange 2px solid;
+}
+.name_35{
+  color: orangered;
 }
 .side01{
   list-style: none;
