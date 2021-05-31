@@ -288,7 +288,7 @@ nav.small {
 	min-height: 400px;
 }
 .home-page-photo {
-	background-image: url(/images/logo.jpg);
+	background-image: url(../images/logo.jpg);
 	background-size: cover;
 	z-index: -1;
 	position: absolute;
