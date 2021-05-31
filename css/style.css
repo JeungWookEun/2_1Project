@@ -390,7 +390,6 @@ nav.small {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	display: block;
 }
 .dropdown_content {
   display: none;
@@ -402,7 +401,6 @@ nav.small {
 .dropdown_content a {
   color: black;
   padding: 14px 16px;
-  text-decoration: none;
   display: block;
 }
 	.drop_0{
@@ -411,15 +409,18 @@ nav.small {
 		font-size: 20px;
 	}
 	.drop_1:hover .dropdown_content{
-		display: block;}
-		
-	.drop_1 .drop_2 {
-		margin-top: 50px;
-		width: 330px;
+		display: block;
 	}
+	/* .drop_1{
+		display: inline-block;
+	} */
 	.drop_2{
 		overflow: hidden;
+		margin: auto;
 	}
+	.dropdown_content{
+		margin: auto;
+  }
 
 /* 14 Footer
 ----------------------------------------------------------------------------- */
