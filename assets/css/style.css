@@ -210,7 +210,7 @@ section {
     position:absolute;
     left:50%; 
     top:50%; 
-    background-image:url(/assets/_images/preloader.gif); 
+    background-image:url(/_images/preloader.gif); 
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; 
@@ -288,7 +288,7 @@ nav.small {
 	min-height: 400px;
 }
 .home-page-photo {
-	background: url(/assets/_images/logo.jpg);
+	background: url(/_images/logo.jpg);
 	background-size: cover;
 	z-index: -1;
 	position: absolute;
@@ -348,7 +348,7 @@ nav.small {
 /* 11 Twitter-tweets
 ----------------------------------------------------------------------------- */
 #twitter_tweet {
-	background: url(/assets/_images/pattern1.png), url(/assets/_images/bg-4.jpg);
+	background: url(/_images/pattern1.png), url(/_images/bg-4.jpg);
 }
 .twitter_tweet h5{
     font-weight: 300;
