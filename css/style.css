@@ -67,7 +67,7 @@ textarea {
   outline: none;
   color: #ffffff;
 }
-.btn-custom,.btn-custom-sm,.dropbtn,.drop_1{
+.btn-custom,.btn-custom-sm,.dropbtn{
 	border-radius: 3px;
 	padding: 0.8em 1.8em;
 	color: #fff;
@@ -209,7 +209,7 @@ section {
     position:absolute;
     left:50%; 
     top:50%; 
-    background-image:url(/_images/preloader.gif); 
+    background-image:url(/images/preloader.gif); 
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; 
@@ -287,7 +287,7 @@ nav.small {
 	min-height: 400px;
 }
 .home-page-photo {
-	background: url(/_images/logo.jpg);
+	background: url(/images/logo.jpg);
 	background-size: cover;
 	z-index: -1;
 	position: absolute;
@@ -347,7 +347,7 @@ nav.small {
 /* 11 Twitter-tweets
 ----------------------------------------------------------------------------- */
 #twitter_tweet {
-	background: url(/_images/pattern1.png), url(/_images/bg-4.jpg);
+	background: url(/images/pattern1.png), url(/images/bg-4.jpg);
 }
 .twitter_tweet h5{
     font-weight: 300;
@@ -386,7 +386,7 @@ nav.small {
 .dropdown_content {
   display: none;
 	background-color: #f1f1f1;
-	width: 120px;
+	width: 105px;
 	box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 30%);
 	z-index: 1;
 	opacity: 0.7;
@@ -410,20 +410,17 @@ nav.small {
     display: inline-block;
 	} */
 	.drop_1:hover .dropdown_content{
-		display: block;
+		display: inline;
 	}
 	.drop_2{
 		overflow: hidden;
-		width: 500px;
-		margin-left: 130px;
+		/* width: 500px;
+		margin-left: 130px; */
 	}
-
+	
 
 /* 14 Footer
 ----------------------------------------------------------------------------- */
-.footer0, .cont0{
-	padding-top: 80px;
-}
 footer p{
 	margin-bottom: 20px;
 }
@@ -609,7 +606,4 @@ background-color: #9932cc;
 #style-switcher {
 	display: none;
 }
-/* .drop_1{
-	text-align: center;
-} */
 }
