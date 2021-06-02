@@ -421,6 +421,9 @@ nav.small {
 
 /* 14 Footer
 ----------------------------------------------------------------------------- */
+.footer0{
+	margin-top: 80px;
+}
 footer p{
 	margin-bottom: 20px;
 }

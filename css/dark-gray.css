@@ -11,7 +11,7 @@ a:hover,a:focus,a:active,.social-icons i:hover,.twitter_tweet i,.twitter_tweet p
 .navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover, .navbar-custom .navbar-nav>.open>a:focus,
 .navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus,
 .navbar-custom .navbar-nav>li>a:hover,
-.md-content h5 {
+.md-content h5, .navbar-header .navbar-brand {
 	color: #737f97;
 }
 .btn-custom,.btn-custom-sm,.back-to-top{
