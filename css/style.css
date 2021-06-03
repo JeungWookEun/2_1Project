@@ -404,10 +404,9 @@ nav.small {
 		font-size: 20px;
 	}
 	/* .drop_1{
-    width: 180px;
-    height: 45px;
-    position: relative;
-    display: inline-block;
+   margin-left: 470px;
+	 margin-right: 470px;
+   height: 45px;
 	} */
 	.drop_1:hover .dropdown_content{
 		display: inline;
@@ -611,5 +610,8 @@ background-color: #9932cc;
 }
 .footer0 {
 	margin-top: 80px;
+}
+.drop_1 {
+	margin: auto;
 }
 }

@@ -22,6 +22,11 @@ function showvest() {
   document.getElementById("en1"). src = "images/vest.png";
   document.getElementById("en2"). innerHTML = "미국에서는 'vest'가 '양복 조끼'를 뜻하는 반면, 영국에서는 '메리야스'를 의미합니다. 같은 단어라도 나라에 따라서 외출용 의류와 내의 옷이 결정되는데요. 그렇다면 '양복 조끼'를 부를 때 영국에서는 어떤 단어를 사용할까요? 18세기 영국에서 긴 코트가 대부분이었다가 코트를 허리 높이로 짧게 자르는 것이 패션이 되면서 'waist coat' 단어를 사용하게 되었다고 하네요.";
 }
+function showtrash() {
+ 
+  document.getElementById("en1"). src = "images/trash.png";
+  document.getElementById("en2"). innerHTML = "";
+}
 function hide() {
  
   document.getElementById("en1").src = "";
