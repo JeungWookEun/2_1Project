@@ -287,7 +287,7 @@ nav.small {
 	min-height: 400px;
 }
 .home-page-photo {
-	background: url(../images/logo.jpg);
+	background: url(../images/bg2.jpg);
 	background-size: cover;
 	z-index: -1;
 	position: absolute;
@@ -327,7 +327,9 @@ nav.small {
 	font-weight: 300;
 	margin-bottom: 30px;
 }
-
+.open{
+	text-align: center;
+}
 /* 7 Services
 ----------------------------------------------------------------------------- */
 .services-item{
@@ -347,7 +349,7 @@ nav.small {
 /* 11 Twitter-tweets.
 ----------------------------------------------------------------------------- */
 #twitter_tweet {
-	background: url(../images/pattern1.png), url(../images/bg-4.jpg);
+	background: url(../images/pattern1.png), url(../images/bg3.jpg);
 }
 .twitter_tweet h5{
     font-weight: 300;
@@ -392,16 +394,19 @@ nav.small {
 	opacity: 0.7;
 	font-size: 15px;
 	position: absolute;
+
 }
 .dropdown_content a {
   color: black;
   padding: 14px 16px;
   display: block;
+
 }
 	.drop_0, .drop_1{
 		text-align: center;
 		font-weight: bold;
 		font-size: 20px;
+
 	}
 	/* .drop_1{
    margin-left: 470px;
@@ -410,9 +415,12 @@ nav.small {
 	} */
 	.drop_1:hover .dropdown_content{
 		display: inline;
+
 	}
 	.drop_2{
 		overflow: hidden;
+
+	
 		/* width: 500px;
 		margin-left: 130px; */
 	}
