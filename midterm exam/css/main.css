@@ -1,0 +1,315 @@
+
+body{
+  position: relative;
+  width:1300px;
+  margin: auto;
+}
+/* body::before{
+  content:"";
+  background-image: url('/img/로고2.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+} */
+/*header*/
+header{
+  text-align: center;
+  height: 200px;
+  position: relative;
+}
+header::before{
+  content:"";
+  background-image: url('/img/로고2.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;  
+}
+.logo a:hover{
+/* background-color: yellowgreen; */
+padding: 14px 16px;
+}
+.logo{
+  position: relative;
+}
+.logo .logo_head{
+  color: black;
+  padding: 14px 16px;
+}
+.logo .logo_head a{
+  text-decoration: underline;
+  text-decoration: none;
+}
+.logo .logo_list{ 
+  float: right;
+  width: 1300px;
+  height: 49px;
+  /* background-color: black; */
+  /* border: 1px solid blue; */
+}
+.logo .logo_list ul{
+  float: left;
+}
+.topmenu{
+  list-style: none;
+}
+.topmenu li{
+  display: inline-block;
+}
+.topmenu li a{
+  text-decoration: none;
+  color:palevioletred;
+  padding: 10px 16px;
+}
+.topmenu li a:hover {
+  background-color: skyblue ;
+}
+
+/*section*/
+.section_main{
+  /* border: 1px solid skyblue;   */
+  height: 1100px;
+}
+.section_1{
+text-align: center;
+font-size: 25px;
+color: white;
+background-color: palevioletred;
+}
+.section_11{
+  margin: 0%;
+  margin-bottom: 10px;
+}
+.usa_0{
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+}
+.usa_1{
+padding-left: 5px;
+font-weight: bold;
+}
+.usk_0{
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+}
+.usk_1{
+  padding-left: 5px;
+  font-weight: bold;
+}
+/* .audio_usa, .audio_usk{
+ display: block;
+  background-image: url('/img/유튜브.png');
+  background-size: cover;
+  opacity: 0.9;
+  z-index: -1;
+  height: 150px;
+  } */
+.audio_usa a, .audio_usk a{
+  text-decoration: none;
+  color: red;
+}
+.contents a, .contents_2 a{
+  text-decoration: none;
+}
+.contents{
+  border-bottom: 2px solid red;
+  font-size: 15px;
+  width: 440px;
+  float: right;
+}
+.contents li{
+  list-style-type: circle;
+}
+.contents_2{
+  border-bottom: 2px solid skyblue;
+  font-size: 15px;
+  width: 440px;
+  float: right;
+}
+.contents_2 li{
+  list-style-type: square;
+}
+.contents_1{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.contents_1 .head_contents{
+  width:800px;
+  float: left;
+  clear: both;
+  /* margin-top: 50px; */
+}
+.body_contents{
+  width: 450px;
+}
+.contents_1 .drop_1{
+  width:180px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 90px;
+  position: relative;
+  display: inline-block;
+  
+}
+
+.contents_1 .body_contents,
+.contents_1 .head_contents{
+  display:inline-block;
+}
+
+.contents_1 .body_usa .title,
+.contents_1 .body_usa .contents,
+.contents_1 .body_usk .title_1,
+.contents_1 .body_usk .contents_1{
+  display: inline-block;
+}
+
+.contents_1 .body_usa .title label,
+.contents_1 .body_usa .title img,
+.contents_1 .body_usk .title_1 label,
+.contents_1 .body_usk .title_1 img{
+  display: block;
+}
+
+.contents_1 .body_usa .title label,
+.contents_1 .body_usk .title_1 label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-indent:5px;
+  font-size:25px;
+}
+
+.dropbtn {
+  background-color: navy;
+  color: yellowgreen;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content a:hover {
+  background-color: #ddd;}
+
+.drop_0{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.drop_1:hover .dropdown_content {
+  display: block;}
+
+.drop_1:hover .dropbtn {
+  background-color: #3e8e41;}
+
+.drop_1 .drop_2 {
+  margin-top: 50px;
+  width: 330px;
+}
+.drop_2{
+  overflow: hidden;
+}
+.con0{
+ border-bottom: orangered 2px solid;
+ border-top: orangered 2px solid;
+ width: 250px;
+}
+/*footer*/
+footer{ 
+ height: 80px;
+}
+.bottom1{
+  text-align: center;
+  padding-top: 35px;
+  height: 50px;
+  border-top: yellow 3px solid;
+}
+.bottom1::before{
+  content:"";
+  background-image: url('/img/로고2.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1; 
+}
+@media screen and (max-width: 767px) {
+body{
+    height: 2700px ;
+    width: 767px;
+    margin: 0px;
+  }
+  .logo .logo_head, footer {
+    width: 50%;
+    margin: auto;
+  }
+  .topmenu{
+    margin-left: 670px;
+  }    
+.section_1 {
+  width: 100%;
+  
+}
+.body_usa, .body_usk{
+  width: 52%;
+  margin-left: 150px;
+}
+.body_usa{
+  margin-bottom: 100px;
+}
+.body_contents{
+  margin-left: 130px;
+  margin-top: 100px;
+}
+footer{
+  padding-top: 1350px;
+  margin-left: 25%;
+}
+}
+
+/* .bottommenu li{
+  list-style: none;
+  float: left;
+}
+.bottommenu li a {
+  display: inline-block;
+  text-decoration: none;
+  color:gray;
+  padding: 20px 30px
+}
+.bottommenu a:hover{
+  background-color: yellowgreen;
+} */
